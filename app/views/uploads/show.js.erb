@@ -1,0 +1,2 @@
+$('#photos_count').html('<%= pluralize(@total_uploads.count, "Photo") %>');
+$('#uploads').append("<%= escape_javascript(render(:partial => "uploads/upload", :locals => {:upload => @upload})) %>");

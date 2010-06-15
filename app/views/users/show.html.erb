@@ -1,0 +1,20 @@
+<%= render :partial => "show" %>
+
+<% title h(@user.name) %>
+
+<h3 id="photos_count"><%= pluralize(@user.uploads.size, "Photo")%></h3>
+
+<div id="uploads">
+  <%= render :partial => @user.uploads %>
+</div>
+
+<h3>Upload a Photo</h3>
+<% form_for Upload.new(:user_id => @user.id), :html => {:multipart => true} do |f| %>
+<%= f.hidden_field :user_id, "value" => @user.id %>
+    <p>
+    <%= f.file_field :photo %>
+  </p>
+  <p><%= f.submit "Upload" %></p>
+<% end %>
+
+<p><%= link_to "All users", users_path %></p>
