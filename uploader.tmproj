@@ -80,7 +80,7 @@
 			<key>filename</key>
 			<string>README</string>
 			<key>lastUsed</key>
-			<date>2010-06-15T10:09:45Z</date>
+			<date>2010-06-15T10:31:07Z</date>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -124,30 +124,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>11</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>130</integer>
+				<integer>3</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>3</integer>
-				<key>line</key>
-				<integer>130</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>11</integer>
-				<key>line</key>
-				<integer>130</integer>
-			</dict>
 		</dict>
 		<key>app/views/users/_form.html.erb</key>
 		<dict>
